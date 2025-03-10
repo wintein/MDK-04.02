@@ -42,15 +42,12 @@ int main()
 
     int n;
     double** matrix = nullptr; //Îáúÿâëåíèå óêàçàòåëÿ íà ìàññèâ óêàçàòåëåé
-    cout << "Ââåäèòå ïîðÿäîê ìàòðèöû: ";
     cin >> n;
     cout << endl;
     create_array(matrix, n);
-    cout << "------------Èñõîäíàÿ ìàòðèöà:------------" << endl;
     fill_array(matrix, n);
     print_array(matrix, n);
-    cout << "------------Èçìåíåííàÿ ìàòðèöà:------------" << endl;
     print_array(matrix, n);
     return 0;
 }
-//MATUSHKA ZEMLA
+//MATUSHKA ZEMLA \pregnrewognewrgolregnepo;e ng
